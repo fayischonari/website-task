@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFC</title>
+    <link rel="icon" href="mfc icon.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    
+<header class="" style="background-color: #54cff8;" >
+        <div class="row text-white">
+            <div class="row col-md-6 col-9   p-3 pl-5 " style="background-color: #54cff8;">
+                <h2 class="col-md-2 col-3 ">MFC</h2>
+                <nav class="navbar navbar-light  col-md-6 col-8 ml-auto" style="width: 300px; background-color: #54cff8;">
+                  <form class="form-inline col-md-9" >
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search" style="width:500px;">
+                   </form>
+                </nav>
+            </div>
+            <div class="col-md-6 col-3 my-auto" style="background-color: #54cff8;">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                   
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav  ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">News</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                          </li>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart4 mt-2 ml-2" viewBox="0 0 16 16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart mt-2 ml-3" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                          </svg>
+                       </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+     </header> 
+
+     <section class="p-4 " id="home-section" style="background-color: #54cff8;">
+      <div class="container">
+          <div class="row align-items-center " style="background-color: #54cff8;">
+              <div class="col-md-6">
+                  <img src="w4.jpeg" alt="" class="img-fluid rounded">
+              </div>
+              <div class="col-md-6">
+                  <h3>The Shop<br>Is On Your Finger Tips</h3>
+                  <p>"you are the average of 5 people you hang around"</p>
+              </div>
+          </div>
+      </div>
+   </section>
+
+  
+
+   <section  style="background-color: #c6ebf5;">
+    <div class="container">
+      <div class="row p-3">
+          <div class="col-md-3">
+            <h5 class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+              <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            </svg>    Delivery</h5><br>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-recycle" viewBox="0 0 16 16">
+              <path d="M9.302 1.256a1.5 1.5 0 0 0-2.604 0l-1.704 2.98a.5.5 0 0 0 .869.497l1.703-2.981a.5.5 0 0 1 .868 0l2.54 4.444-1.256-.337a.5.5 0 1 0-.26.966l2.415.647a.5.5 0 0 0 .613-.353l.647-2.415a.5.5 0 1 0-.966-.259l-.333 1.242-2.532-4.431zM2.973 7.773l-1.255.337a.5.5 0 1 1-.26-.966l2.416-.647a.5.5 0 0 1 .612.353l.647 2.415a.5.5 0 0 1-.966.259l-.333-1.242-2.545 4.454a.5.5 0 0 0 .434.748H5a.5.5 0 0 1 0 1H1.723A1.5 1.5 0 0 1 .421 12.24l2.552-4.467zm10.89 1.463a.5.5 0 1 0-.868.496l1.716 3.004a.5.5 0 0 1-.434.748h-5.57l.647-.646a.5.5 0 1 0-.708-.707l-1.5 1.5a.498.498 0 0 0 0 .707l1.5 1.5a.5.5 0 1 0 .708-.707l-.647-.647h5.57a1.5 1.5 0 0 0 1.302-2.244l-1.716-3.004z"/>
+            </svg>    Use</h5><br>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+              <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+            </svg>    Support</h5><br>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
+              <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"/>
+            </svg>     Service</h5><br>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
+          </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="">
+    <div class="container">
+      <div class="text-center p-4">
+        <h4>NATUS ERROR</h4>
+      <h1>Unde Omnis iste</h1>
+      <p>find your favourite device here<br>Hurry up </p>
+      </div>
+      <div class="row mt-auto">
+        <div class="col-md-3 text-center">
+          <img src="laptop3.jpg" alt="" class="col-md-6">
+          <p>Lenovo</p>
+          <p>IdeaPad Slim 3i</p>
+          <p>8GB RAM</p>
+          <a href="" class="text-dark">See All</a>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="mobile1.jpg" alt="" class="col-md-6">
+          <p>SAMSUNG</p>
+          <p>S20 Ultra</p>
+          <p>8GB&128GB</p>
+          <a href="" class="text-dark">See All</a>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="tablet1.jpg" alt="" class="col-md-6">
+          <p class="mt-4">Vivo</p>
+          <p>Tab 3</p>
+          <p>13 inch display</p>
+          <a href="" class="text-dark">See All</a>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="desktop.jpg" alt="" class="col-md-6">
+          <p class="mt-5">Acer</p>
+          <p>Swift</p>
+          <p>24 inch</p>
+          <a href="" class="text-dark">See All</a>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="" style="background-color: #f6f9f9;">
+    <div class="p-3">
+      <div class="container">
+        <div class="text-center">
+          <h3>DESERUNT</h3>
+          <h2>Mollit anim</h2>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-4 align-items-center">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="laptop2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">MacBook Air</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+            <div class="col-md-6 text-center" style="height: 200px;">
+              <div class="card bg-dark text-white " style="height: 170px;">
+                <img class="card-img" src="mob1.jpg" alt="Card image" style="height: 170px;">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">RedMi</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 text-center" style="height: 200px;">
+              <div class="card bg-dark text-white" style="height: 170px;">
+                <img class="card-img" src="tv.jpg" alt="Card image" style="height: 170px;">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Television</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-12 text-center" style="height: 200px;">
+              <div class="card bg-dark text-white" style="height: 170px;">
+                <img class="card-img" src="tab1.jpg" alt="Card image" style="height: 170px;">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Tablets</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 col-9">
+         <h3>Unde Omnis</h3>
+        </div>
+       <div class="col-md-6 col-3 ml-auto my-auto">
+         <div class="ml-auto">
+           <nav class="navbar navbar-expand-lg navbar-light ">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                 <li class="nav-item">
+                   <a class="nav-link disabled" href="#">Phones</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link disabled" href="#">Electronics</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link disabled" href="#">Kids</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Other</a>
+                 </li>
+               </ul>
+             </div>
+           </nav>
+         </div>
+       </div>
+        
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="card m-2 text-center" style="width: 15rem;">
+            <img src="lap1.jpg" class="card-img-top" alt="..." >
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card m-2 mr-2 text-center" style="width: 15rem;">
+            <img src="watch1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card m-2 text-center" style="width: 15rem;">
+            <img src="airp.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="card m-2 text-center" style="width: 15rem;">
+            <img src="sp1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="text-center mt-3">
+        <button type="button" class="btn btn-outline-info rounded-circle "><</button>
+        <button type="button" class="btn btn-outline-info rounded-circle ">></button>
+      </div>
+    </div>
+   </section>
+
+   <section class="">
+    <div class="container">
+      <div>
+        <h3>Magni Dolores</h3>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">JBL Stereo 5</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Headset with microphone</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">shop Now</a>
+              <a href="#" class="card-link">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="headset1.jpg" alt="" style="width: 170px; height: 200px;">
+        </div>
+
+        <div class="col-md-4">
+          <div>
+            <h3>Quis autem vel eum iure<br>reprehenderit</h3>
+            <div class="row ml-1">
+              <h5>$199</h5>
+              <p class="ml-1"><del>299</del></p>
+            </div>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's contentSome quick example text to build on the card title and make up the bulk of the card's content</p>
+            <div>
+              <div class="row">
+                <div><h5 class="ml-3">Sold:350</h5></div>
+                <div class="ml-auto"><h5>Quantity:500</h5></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                  <span class="sr-only">70% Complete</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-primary mt-3 mb-3">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+   </section>
+
+   <section class="pt-2" style="background-color: #f6f9f9;">
+    <div class="container">
+      <div class="mt-2">
+      <h6>Vellit Esse</h6>
+      <h3>quaam Nihil</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card m-2" style="width: 18rem;">
+            <img src="vr.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Virtual Reality</h4>
+              <h4 class="card-text">SAMSUNG</h4>
+              <p>August 14/2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card m-2" style="width: 18rem;">
+            <img src="vr2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Virtual Reality</h4>
+              <h4 class="card-text">Google</h4>
+              <p>August 14/2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card m-2" style="width: 18rem;">
+            <img src="vr3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Virtual Reality</h4>
+              <h4 class="card-text">Apple</h4>
+              <p>August 14/2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3 ">
+        <button type="button" class="btn btn-outline-info rounded-circle mb-3 "><</button>
+        <button type="button" class="btn btn-outline-info rounded-circle mb-3">></button>
+      </div>
+    </div>
+   </section>
+
+   <section class="bg-primary p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-white">
+          <p>ODIO DIGNISSIONS</p>
+          <h3>Ducimus Qui</h3>
+          <p>221B Baker Street<br>Chonari Beeran</p>
+        </div>
+        <div class="col-md-6 text-center mt-5">
+          <input type="email" placeholder="your email">
+          <button type="button" class="btn btn-outline-dark rounded text-center pb-1" style="background-color: rgb(149, 239, 155);">Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="bg-light">
+    <div class="container">
+      <div class="row p-4">
+        <div class="col-md-3">
+          <h6 class="ml-3">Tempor</h6>
+          <p class="nav-link disabled">Similique</p>
+          <p class="nav-link disabled">Deserunt mollit anim</p>
+          <p class="nav-link disabled">Sedd ut perspiciatis</p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="ml-3">sunt in culpa</h6>
+          <p class="nav-link disabled">Sunt in culpa</p>
+          <p class="nav-link disabled">mollit anim</p>
+          <p class="nav-link disabled">perspiciatis</p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="ml-3">Qui officia</h6>
+          <p class="nav-link disabled">Similique</p>
+          <p class="nav-link disabled">Deserunt mollit anim</p>
+          <p class="nav-link disabled">Sedd ut perspiciatis</p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="ml-3">Sherlock Holmes</h6>
+          <p class="nav-link disabled">221b baker street</p>
+          <p class="nav-link disabled">watson@info.com</p>
+          <p class="nav-link disabled">+1 (234)567 89 01</p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <footer class="" style="background-color: #f5f3f6;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p>copyright2022.All rights reserved.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg>
+        </div>
+        <div class="col-md-4 ml-auto">
+          <p class="text-right">mfc@221b.</p>
+        </div>
+      </div>
+    </div>
+   </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
